@@ -1,13 +1,14 @@
-import React from 'react';
-
 import './App.css';
+import { useState } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-     
-    </div>
-  );
-}
+const App = () => {
+const [state, setState] = useState();
+
+	return (
+		<div className="App">
+			<img src="App-logo" alt="label" />
+		</div>
+	);
+};
 
 export default App;
