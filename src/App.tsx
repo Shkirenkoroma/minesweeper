@@ -1,12 +1,11 @@
+import { FC } from 'react';
 import './App.css';
-import { useState } from 'react';
 
-const App = () => {
-const [state, setState] = useState();
+const App:FC = (): JSX.Element => {
 
 	return (
 		<div className="App">
-			<img src="App-logo" alt="label" />
+			
 		</div>
 	);
 };
