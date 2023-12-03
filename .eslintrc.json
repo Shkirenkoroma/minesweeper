@@ -17,7 +17,6 @@
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
-    "plugin:jsx-a11y/recommended",
     "plugin:import/recommended",
     "prettier"
   ],
@@ -28,6 +27,7 @@
   },
   "plugins": ["@typescript-eslint", "react"],
   "rules": {
+    "@typescript-eslint/no-non-null-assertion": "off",
     "no-console": "warn",
     "quotes": ["error", "single"],
     "jsx-quotes": ["error", "prefer-double"],
