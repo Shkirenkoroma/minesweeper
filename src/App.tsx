@@ -102,7 +102,7 @@ const App: FC = (): JSX.Element => {
                     clear(x, y);
 
                     while (clearing.length) {
-                      const [x, y] = clearing.pop()!!;
+                      const [x, y] = clearing.pop()!;
 
                       mask[y * size + x] = Mask.Transparent;
 
